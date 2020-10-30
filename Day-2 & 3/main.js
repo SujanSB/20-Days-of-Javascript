@@ -100,6 +100,7 @@ const Roll =[66,34,45,65,88,89,34,45,67,32,34]
 
 
 // for
+
 // for(let i=0;i<Students.length;i++){
 //     console.log(Students[i]);
 // }
@@ -115,12 +116,135 @@ const Roll =[66,34,45,65,88,89,34,45,67,32,34]
 //     console.log(student)
 // })
 // using arrow function
-// Students.forEach((student)=>{console.log(student)})
+// Students.forEach(student=>{console.log(student)})
 
 // filter with arrow function
 
-const Budo = Students.filter(age=> {if (age>25){console.log("budo vais bihe gar")}})
 
-// const Budo = Students.filter(age=> age >=20 )
+// console.log("day -3")
 
-console.log(Budo)
+//  const budo = Students.filter(umer=> {if (umer.age>25){console.log("budo vais bihe gar",umer.name)}else{console.log("bacchai chhas",umer.name)}})
+//  console.log(budo)
+// const janne = Roll.filter(i=> i<=40 )
+// const janne = Roll.filter(function(i){
+//    return i<=40
+// })
+// arrow function vitra  3 ota kuraharu pass garna milxa arument,object,index
+// console.log(janne)
+
+
+
+
+
+
+
+
+// console.log("map")
+
+// const whichField = Students.map((manxe)=>{return `${manxe.name} of  ${manxe.field} field` });
+// console.log(whichField)
+
+// Ekdamai imp
+
+
+
+
+
+
+
+
+// const RollSquare = Roll.map(i=> i*2)
+// const RollDoublewithSquare = Roll.map(roll=> roll*2).map(roll=>roll*roll)
+
+// console.log(RollDoublewithSquare)
+
+
+
+
+
+
+
+
+
+
+
+// Console.log("Sort")
+// const SortRoll = Roll.sort()//default accending order
+
+// const SortRoll = Roll.sort((a,b)=> a-b)//decending order
+// console.log(SortRoll)
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log('reduce')
+// let RollSum = 0
+// normal for loop ko through gara
+
+// const rollSum = Roll.reduce((total,b)=> total +b,0);
+// console.log(rollSum)
+
+
+
+
+
+
+// -destructuring and Spread Operator two major things to be understand while learning React js 
+// console.log("object destructuring")
+
+// const address ={
+//     street:"Devi prasad marga",
+//     city:"ktm",
+//     country:"Nepal"
+// }
+
+// const street = address.street;
+// const city = address.city
+// const country = address.country
+
+// const {street,city,country}= address;  //ramro maninxa
+// console.log(street)
+
+
+// console.log("Spread Operator")
+
+// const pahilo = ['ram','shyam',4]
+// const dosro = [1,45,78]
+
+// // const mileko = pahilo.concat(dosro)
+// const mileko =[...dosro,...pahilo]
+// console.log(mileko)
+
+// console.log("day 3 finished")
+
+console.log("EXTRA ")
+
+let add = document.getElementById('badauna')
+let minus = document.getElementById('ghataune')
+let val = document.getElementById('number')
+
+let value = 0
+
+add.addEventListener('click',()=>{
+    value+=1;
+    val.innerHTML = value
+})
+minus.addEventListener('click',()=>{
+    value-=1;
+    val.innerHTML = value
+})
+
+
+
+
+
+
