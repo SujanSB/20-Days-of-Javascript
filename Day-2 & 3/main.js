@@ -10,11 +10,11 @@
 // }
 
 // myfunction()
-
+//Everything is object in JAVASCRIPT
 // const student ={
 //     fname: "sujan",
 //     lname:"bhattarai",
-//     fullname:function(){
+//     fullname(){
 //         console.log(this.fname)
 //         console.log(`My fullname is  ${this.fname} ${this.lname} `)
 //     }
@@ -226,22 +226,24 @@ const Roll =[66,34,45,65,88,89,34,45,67,32,34]
 
 // console.log("day 3 finished")
 
-console.log("EXTRA ")
+// console.log("EXTRA ")
 
-let add = document.getElementById('badauna')
-let minus = document.getElementById('ghataune')
-let val = document.getElementById('number')
+// let add = document.getElementById('badauna')
+// let minus = document.getElementById('ghataune')
+// let val = document.getElementById('number')
 
-let value = 0
+// let value = 0
 
-add.addEventListener('click',()=>{
-    value+=1;
-    val.innerHTML = value
-})
-minus.addEventListener('click',()=>{
-    value-=1;
-    val.innerHTML = value
-})
+// add.addEventListener('click',()=>{
+//     value+=1;
+//     val.innerHTML = value
+// })
+// minus.addEventListener('click',()=>{
+//     value-=1;
+//     val.innerHTML = value
+// })
+
+
 
 
 
