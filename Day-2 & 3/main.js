@@ -132,7 +132,10 @@ const Roll =[66,34,45,65,88,89,34,45,67,32,34]
 // arrow function vitra  3 ota kuraharu pass garna milxa arument,object,index
 // console.log(janne)
 
-
+// const arr1 = [1,2,3,4,]
+// const arr2 = ["sujan","shashank"]
+// arr2.concat(arr1)
+// const combine = [...arr1,...arr2]
 
 
 

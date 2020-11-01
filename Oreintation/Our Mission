@@ -26,7 +26,9 @@
 						  - Some concept about 
 						  		1)Object distructring
 						  		2)Spread operator
-						  		
+						  #small project:
+						  	      Simple counter in js.
+						  	       
 						  		
 						  ------------------------------Day 4--------------------------------
 						  - Oject Oriented Javascript (Classes)
@@ -39,53 +41,61 @@
 						  - Some concept about 
 						  		1)IIFE
 						  		2)Call Method
-						  		3)Why to use closure & why
+						  		3)Why to use closure &when
 						  		
 						  
 						  
-						  ------------------------------Day 6 & 7 & 8 & 9 --------------------------------
+						  ------------------------------Day 6 & 7 & 8  --------------------------------
 						  - DOM manipulation with javascript 
+						  - A todo List Project(Some concept on localstorage)
+						  - Image Slider using Js
 						  
 						  
 						  
 				#lets learn more by creating some basic projects
-						  ------------------------------Day 10--------------------------------
-						  -Counter in Js
+						  ------------------------------Day 9--------------------------------
+						  -Random Password Generator
 						  -Quotes showing app
 						  
 						  
 						  
-						  ------------------------------Day 11 --------------------------------
+						  ------------------------------Day 10 --------------------------------
 						  -Percentage calculator
 						  
 						  
 						  
-						  ------------------------------Day 12( A bit long )--------------------------------
+						  ------------------------------Day 11( A bit long )--------------------------------
 						  -Analog Watch  
 						  -Calender in js
 						  
 						  
 						  
-						  ------------------------------Day 13--------------------------------
+						  ------------------------------Day 12--------------------------------
 						  -Quiz application
 						  
 						  
 						  
-				#lets get dive into some advance topics
+						  ------------------------------Day 13--------------------------------
+						  -A simple game using js
 						  
+						  
+						  
+				#lets get dive into some advance topics						  
 						  ------------------------------Day 14 & 15 --------------------------------
-						  -Promises (Why it is so handy ?)
+						  -Asynchronous Js(async await)						
 						  -API (Ajax call using fetch API)
-						  (covid 19-tracker)
+						  (covid 19-tracker app)
+						  -Promises (Why it is so handy ?)
 						  
 						  
   				
   				
-  				So basically Within 15 Days we will finish Fundamental javascript. After that we will Do Some more Fun .....,
+  				So basically Within 15 Days we will finish Fundamental javascript. (almost 12 project) After that we will Do Some more Fun .....,
   				
-  			may be A big Project along with Javascript / may be J-Query / Responsive Design / A portfolio website.....aren't you excited ?
+  			may be A big Project along with Javascript /Some special guest may come / may be use of J-Query plugin / Responsive Design /
+			  			May be real time face detection / A portfolio website.....aren't you excited ?
   			
-  									Stay tuned  !!!
+  									    Stay tuned  !!!
   
   
   
