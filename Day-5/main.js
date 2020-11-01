@@ -6,7 +6,7 @@
 // (function Swagatam(){
 //     console.log("Aaja day-5 ")
 // })()
-
+// Concept majjalebujhnu chai jaroori xa
 
 // Swagatam()
 
@@ -44,22 +44,24 @@
 
 // console.log("call method")
 
-const manxeOne = {
-    name:"sujan",
-    age:'22',
-    yob:'1999',
-    detail:function(bani){
-        console.log(`His name is ${this.name} , he is ${this.age} year old ,usko bani ${bani} ,${this.yob}`);
-    }
-};
+// const manxeOne = {
+//     name:"sujan",
+//     age:'22',
+//     yob:'1999',
+//     detail:function(bani){
+//         console.log(`His name is ${this.name} , he is ${this.age} year old ,usko bani ${bani} ,${this.yob}`);
+//     }
+// };
 
-console.log(manxeOne.name)
-manxeOne.detail('ramro')
-const manxeTwo = {
-    name:"praman",
-    age:'23',
-    yob:'1998'
-};
-manxeOne.detail.call(manxeTwo,"naramro")
+// console.log(manxeOne.name)
+// manxeOne.detail('ramro')
+// const manxeTwo = {
+//     name:"praman",
+//     age:'23',
+//     yob:'1998'
+// };
+// manxeOne.detail.call(manxeTwo,"naramro")
 
-console.log("day 5 finished")
+// console.log("day 5 finished")
+
+
