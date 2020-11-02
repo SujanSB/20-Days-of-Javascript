@@ -10,7 +10,7 @@
 
 // Swagatam()
 
-// console.log("closure")
+console.log("closure")
 
 // Closure in action is that in inner function can have access to the outer function variable . as well as global variable
 
