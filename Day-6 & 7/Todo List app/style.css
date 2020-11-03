@@ -1,0 +1,58 @@
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.vado {
+    width: 380px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    box-shadow: 0 0 20px;
+}
+
+#khalithau {
+    width: 300px;
+    height: 45px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 25px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+#halTaile {
+    height: 50px;
+    width: 50px;
+    outline: none;
+    background-color: indigo;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 30px;
+}
+#halTaile:hover{
+    background-color: thistle;
+}
+.talakothau {
+    margin: 10;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 1px;
+    padding-left: 20px;
+    background-color: blue;
+    border-radius: 20px;
+}
+.sakkesi{
+    border-radius: 20px;
+}
+.kaam-haru {
+    margin-top: 25px;
+    margin-right: 15px;
+}

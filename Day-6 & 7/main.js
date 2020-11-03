@@ -2,8 +2,8 @@
 
 // by id
 // var title = document.getElementById('header')
-var title = document.getElementsByClassName('h1')
-console.log(title[0].innerHTML)
+// var title = document.getElementsByClassName('h1')
+// console.log(title[0].innerHTML)
 
 // textContent and innerText
 // console.log(title.innerText)
@@ -72,11 +72,34 @@ console.log(title[0].innerHTML)
 // vado.style.backgroundColor="red"
 
 
+console.log("Day 7")
+
+// var kehi = document.querySelector('#items')
+// console.log(kehi.childNodes)
+// console.log(kehi.childNodes[1].innerText)
+// console.log(kehi.parentNode)
+// console.log(kehi.children)
 
 
+// let li1 = document.querySelector('#kura1')
+// let li = document.getElementsByTagName('li')
+
+// console.log(li[0])
 
 
+// console.log(li1.parentNode.nextElementSibling)
+// console.log(li1.parentNode.previousElementSibling)
 
+// var btn  = document.getElementById('btn')
+// btn.addEventListener('click',function(){
+//     var naya = document.createElement('p')
+//     naya.innerText="k xa maya"
+//     li1.appendChild(naya)
+    
+//     kehi.children[2].style.backgroundColor="red"
+
+
+// })
 
 
 
