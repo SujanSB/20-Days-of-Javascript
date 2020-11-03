@@ -102,6 +102,8 @@ console.log("Day 7")
 // })
 
 
+console.log("DOM manipilation almost finished")
+
 
 
 

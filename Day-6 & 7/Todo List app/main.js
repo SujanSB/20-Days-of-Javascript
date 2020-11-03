@@ -31,8 +31,11 @@ btn.addEventListener('click',function(){
     // i.addEventListener('click',()=>{
     //     toDoVado.removeChild(talakokura)
     // })
-   
+   //try it but remenber you may delete all the items at one click on any list items which is not good so it is done for better practice only.
+
 
 
 
 })
+
+console.log("yaha ahile samma sikeko sabai logic haru use vayeko xa")
