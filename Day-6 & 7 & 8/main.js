@@ -72,7 +72,7 @@
 // vado.style.backgroundColor="red"
 
 
-console.log("Day 7")
+// console.log("Day 7")
 
 // var kehi = document.querySelector('#items')
 // console.log(kehi.childNodes)
@@ -102,15 +102,41 @@ console.log("Day 7")
 // })
 
 
-console.log("DOM manipilation almost finished")
+
+// console.log("DOM manipilation almost finished")
+
+console.log("Time and Date")
 
 
+var d = new Date()
+// console.log(typeof d)
+// console.log(d)
 
+// var month = d.getUTCMonth()+1
+// console.log(month)
 
+// var day = d.getDate()
 
+// if(day == 4){
+//     day= "wed"
+// }
 
+// console.log(day)
 
+// var year = d.getFullYear()
+// console.log(year)
 
+// time
+// var hr = d.getHours()
+// console.log(hr)
+// var mins = d.getMinutes()
+// console.log(mins)
+// var sec = d.getSeconds()
+// console.log(sec)
+
+// console.log(`Ahile ko time ${hr} :${mins}:${sec} `)
+
+// document.write(`Ahile ko time ${hr} :${mins}min:${sec} sec`)
 
 
 

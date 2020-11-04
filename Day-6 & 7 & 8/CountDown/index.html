@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CountDown</title>
+</head>
+<style>
+    :root{
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    button{
+        font-size: 60px;
+        margin: 50px;
+        padding: 20px;
+    }
+
+</style>
+<body>
+    <h1>Your remaining time is </h1>
+
+    <button id="remainingTime"></button>
+
+
+</body>
+<script>
+    const StartTime= 20;
+    var time = StartTime*60
+    const remainingTime=document.getElementById('remainingTime')
+
+    function updateRemaining(){
+        const min =Math.floor(time/60)
+        const sec = time%60
+        remainingTime.innerHTML=` ${min} : ${sec} `;
+        time --;
+        
+    }
+    setInterval(updateRemaining,1000)
+</script>
+</html>

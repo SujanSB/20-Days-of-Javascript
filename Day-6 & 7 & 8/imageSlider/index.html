@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .vado{
+        height: 100vh;
+        width: 1200;
+        
+    }
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 80%;
+    }
+    button{
+        font-size: 25px;
+        outline: none;
+        border-radius: 50%;
+    }
+    .bichma{
+        width: 10%;
+        margin: auto;
+    }
+</style>
+<body>
+    <div class="vado">
+        <img src="image/w2.jpeg" alt="image not found" id="photo">
+        <div class="bichma">
+            <button id="aghillo"><</button>
+            <button id="yespaxi">></button>
+        </div>
+    </div>
+</body>
+<script>
+    let aghillo = document.getElementById('aghillo')
+    let yespaxi = document.getElementById('yespaxi')
+    var ImageHaru = ['image/w4.png','image/w5.png','image/w6.jpg','image/w10.jpg',"https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"]
+    var phuto =document.getElementById('photo')
+
+    let i= 0;
+    aghillo.addEventListener('click',()=>{
+        i--;
+        if(i<0){
+            i=ImageHaru.length-1;
+        }
+        phuto.src=ImageHaru[i]
+    })
+    yespaxi.addEventListener('click',()=>{
+        i++;
+        if(i>ImageHaru.length-1){
+            i= 0;
+        }
+        phuto.src=ImageHaru[i]
+
+    })
+
+</script>
+</html>
