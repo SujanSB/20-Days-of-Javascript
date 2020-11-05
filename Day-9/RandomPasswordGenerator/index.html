@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random PW</title>
+</head>
+<body>
+    <h1>Random Password Generator</h1>
+    <input type="text" id="pw" readonly='' >
+    <button id="btn">Click me</button>
+
+</body>
+<script>
+    let  pw = document.getElementById('pw')
+    var CharHaru ='0123456789ASDFGHJKLZXCVBNMQWERTYUIOPasdfghjklzxcvbnmqwertyuiop<>?":"@#$%^&*()_+[]'
+    var passwordLength = 8
+
+    var btn = document.getElementById('btn')
+    btn.addEventListener('click',function(){
+        var password= ""
+        for (let i=0;i<passwordLength;i++){
+
+            var randomVal = Math.floor(Math.random()*CharHaru.length)
+            //randomly a value is generated
+            password +=CharHaru.substring(randomVal,randomVal+1)//substring le kun kun ko bich ko value choose gareko dekhauxa :visit w3Shcool for dherai janna mula yetti nih bujhdainas hawa
+            // password is added again and again until the loop runs
+        }
+
+
+        pw.value= password
+    })
+
+</script>
+</html>
