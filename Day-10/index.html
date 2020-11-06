@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calculator</title>
+</head>
+<body>
+    <div class="vado">
+        <h1>Student Percentage/Grade Calculator</h1>
+        <form action="" class="form">
+            <div>
+                Math:
+                <input type="number"  id="sub1">
+            </div>
+            <div>
+                Social:
+                <input type="number"  id="sub2">
+            </div>
+            <div>
+                Science:
+                <input type="number"  id="sub3">
+            </div>
+            <div>
+                Nepali:
+                <input type="number"  id="sub4">
+            </div>
+            <div>
+                English:
+                <input type="number"  id="sub5">
+            </div>
+            <button id="btn">Submit</button>
+        </form>
+        <div class="result">
+            <h1>Result is :</h1>
+            <h2 id="post">
+                Please Wait
+            </h2>
+        </div>
+    </div>
+</body>
+<script>
+    let btn = document.getElementById('btn');
+    
+    btn.addEventListener('click', (e)=>{
+        e.preventDefault()
+        console.log("mildai xa")
+        let sub1 =document.getElementById('sub1').value
+        let sub2 =document.getElementById('sub2').value
+        let sub3 =document.getElementById('sub3').value
+        let sub4 =document.getElementById('sub4').value
+        let sub5 =document.getElementById('sub5').value
+
+        let total = calculate(sub1,sub2,sub3,sub4,sub5);
+        if(total===0){
+            alert("please enter all the value")
+        }
+        let perc = total/5;
+        let psfl ;
+        if(perc>45){
+            psfl="pass"
+        }else {
+            psfl="fail"
+        }
+        let dekhaune = document.getElementById('post')
+        dekhaune.innerHTML =`the student have got ${total}marks with percentage of ${perc}% and s/he is ${psfl}`
+
+    })
+        function calculate(sub1,sub2,sub3,sub4,sub5){
+            let a=parseFloat(sub1)
+            let b=parseFloat(sub2)
+            let c=parseFloat(sub3)
+            let d=parseFloat(sub4)
+            let e=parseFloat(sub5)
+            let total =eval(a+b+c+d+e);
+            return total;
+    }
+</script>
+</html>
