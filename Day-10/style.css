@@ -1,0 +1,35 @@
+.vado{
+    background-color: teal;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+}
+.form{
+    padding: 20px;
+    border: 30px;
+    margin: 50px auto;
+    background-color: black;
+    color: blanchedalmond;
+}
+input{
+    outline: none;
+    color: blanchedalmond;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+
+}
+
+#btn{
+    border: none;
+    outline: none;
+    background-color: crimson;
+    color: black;
+    padding: 6px 12px;
+}
+.result{
+    background-color:indigo ;
+    margin: 30px auto;
+    width: 70%;
+    
+}
