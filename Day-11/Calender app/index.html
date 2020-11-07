@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="month">
+            <p id="kumahina"></p>
+
+        </div>
+        <div class="day">
+            <p id="kunday"></p>
+        </div>
+        <div class="dayNum">
+            <p id="katiday"></p>
+        </div>
+        <div class="year">
+            <p id="saal">
+
+            </p>
+        </div>
+    </div>
+</body>
+<script >
+    const lang = navigator.language;
+    let  date= new Date()
+    let katiday = date.getDate();
+    let mahina = date.getMonth()+1;
+    let kunday = date.toLocaleDateString(lang,{weekday:"long"})
+    let kumahina = date.toLocaleDateString(lang,{month :"long"})
+    let year = date.getFullYear()
+
+
+    document.getElementById('kumahina').innerHTML= kumahina
+    document.getElementById('kunday').innerHTML= kunday
+    document.getElementById('katiday').innerHTML= katiday
+    document.getElementById('saal').innerHTML= year
+    
+
+</script>
+</html>
