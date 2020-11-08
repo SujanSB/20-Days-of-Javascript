@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+   
+    <form name="quiz" id="quiz">
+        <div >
+            <p>1.Which is Scripting language?</p>
+            <p><input type="radio" name="qsn1" value="HTML">
+                A.HTML
+            </p>
+            <p><input type="radio" name="qsn1" value="Css">
+                B.CSS
+            </p>
+            <p><input type="radio" name="qsn1" value="Js">
+                C.JAVASCRIPT
+            </p>
+            <p><input type="radio" name="qsn1" value="Jquery">
+                D.JQUERY
+            </p>
+        </div>
+        <div>
+            <p>2.which is top programming Language in 2020?</p>
+            <p><input type="radio" name="qsn2" value="Swift">
+                A.Swift
+            </p>
+            <p><input type="radio" name="qsn2" value="Ruby">
+                B.Ruby
+            </p>
+            <p><input type="radio" name="qsn2" value="C">
+                C.C 
+            </p>
+            <p><input type="radio" name="qsn2" value="Python">
+                D.Python
+            </p>
+        </div>
+        <div>
+            <p>3.What is american president?</p>
+            <p><input type="radio" name="qsn3" value="Drump">
+                A.Drump
+            </p>
+            <p><input type="radio" name="qsn3" value="Trump">
+                B.Trump
+            </p>
+            <p><input type="radio" name="qsn3" value="Beden">
+                C.Beden
+            </p>
+            <p><input type="radio" name="qsn3" value="Obama">
+                D.Obama
+            </p>
+        </div>
+        <div>
+            <p>4.What is current Nepali PM?</p>
+            <p><input type="radio" name="qsn4" value="Oli">
+                A.Guffadi Oli
+            </p>
+            <p><input type="radio" name="qsn4" value="Baburam">
+                B.Padai vako buddhi navako Baburam
+            </p>
+            <p><input type="radio" name="qsn4" value="hatyara">
+                C.17000 ko hatyara
+            </p>
+            <p><input type="radio" name="qsn4" value="Shere">
+                D.Shere
+            </p>
+        </div>
+
+        <input type="button" name ="" value="Submit" onclick="check()" id="btn">
+    </form>
+    <h1>Result</h1>
+    <div id="result">
+
+    </div>
+</div>
+</body>
+
+<script>
+    function check(){
+        var ym=0;
+        var q1 = document.quiz.qsn1.value
+        var q2 = document.quiz.qsn2.value
+        var q3 = document.quiz.qsn3.value
+        var q4 = document.quiz.qsn4.value
+        if (q1=="Js"){ym++}
+        if (q2=="Python"){ym++}
+        if (q3=="Beden"){ym++}
+        if (q4=="Oli"){ym++}
+        
+        ym = ym*25
+        // alert()
+
+        document.getElementById('result').innerHTML=`you have score ${ym} out of 100 `
+        }
+</script>
+</html>
