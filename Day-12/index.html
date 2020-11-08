@@ -41,7 +41,7 @@
             </p>
         </div>
         <div>
-            <p>3.What is american president?</p>
+            <p>3.Who is the american president?</p>
             <p><input type="radio" name="qsn3" value="Drump">
                 A.Drump
             </p>
@@ -56,7 +56,7 @@
             </p>
         </div>
         <div>
-            <p>4.What is current Nepali PM?</p>
+            <p>4.Who is current Nepali PM?</p>
             <p><input type="radio" name="qsn4" value="Oli">
                 A.Guffadi Oli
             </p>
@@ -93,9 +93,16 @@
         if (q4=="Oli"){ym++}
         
         ym = ym*25
+        let suggestion = ''
         // alert()
+        if (ym <=50){
+            suggestion="You need to work hard "
+        }
+        else if(ym >= 70){
+            suggestion="Well done !!!"
+        }
 
-        document.getElementById('result').innerHTML=`you have score ${ym} out of 100 `
+        document.getElementById('result').innerHTML=`you have score ${ym} out of 100 ,${suggestion} `
         }
 </script>
 </html>

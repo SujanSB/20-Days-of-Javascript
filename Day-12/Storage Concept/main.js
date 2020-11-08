@@ -40,6 +40,10 @@
 // localStorage.clear()
 
 // // session storage vaneko chai k vanda current time ma brower open vainjjel ko session ma matra session storage ma store garera rakhne
+// sessionStorage.setItem("name","Santosh")
+// let san = sessionStorage.getItem('name')
+
+
 
 
 
