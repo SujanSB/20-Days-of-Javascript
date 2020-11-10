@@ -83,10 +83,10 @@
 
 
 // const functOne =(()=>{
-//     setTimeout(()=>{
+//     // setTimeout(()=>{
 
 //         console.log("ma function 1 bata malai run huna time lagxa")
-//     },3000)
+//     // },3000)
 
 //     functTwo()
 // }
@@ -95,7 +95,7 @@
 
 
 // const functTwo=(()=>{
-//     console.log("ma function 2 bata")
+//     console.log("ma function 2 bata ,la thik xa nih ta ma wait garxu")
 // })
 
 // functOne()

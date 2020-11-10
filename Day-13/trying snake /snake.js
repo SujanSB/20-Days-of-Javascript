@@ -54,7 +54,7 @@ const food = {
 
     draw : function(){
         ctx.beginPath();
-        ctx.fillStyle = "red";
+        ctx.fillStyle = "pink";
         ctx.arc(this.x, this.y, this.r, 0 , 2*Math.PI);
         ctx.fill();
         ctx.closePath();
