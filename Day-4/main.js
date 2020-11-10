@@ -102,9 +102,6 @@
 
 
 
-
-
-
 // const functOne=((name,callback)=>{
     
 //     setTimeout(()=>{

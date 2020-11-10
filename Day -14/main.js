@@ -24,7 +24,7 @@ console.log("Today ")
 // -async await 
 // #fetch API
 
-
+// Async Await ko better knowledge ko lagi search AsyncAwait on youtube top 3 video maddhe jun kunai pani herera bujhda ekdam best
 
 
 
