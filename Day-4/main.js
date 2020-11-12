@@ -111,10 +111,10 @@
 //     },3000)
 // })
 
-// const funcTwo=((callback1)=>{
+// const funcTwo=((sa)=>{
 //    console.log("kei ta xa")
 // })
-
+ 
 // functOne("sujan",funcTwo)
 
 
