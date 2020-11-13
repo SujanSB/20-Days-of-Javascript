@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+  
+  .navbar{
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    width: 100%;
+  }
+  .brand{
+    color: rgb(248, 114, 4);
+    font-size: 35px;
+    font-weight: bold;
+    background-size: contain;
+    width: 180px;
+    height: 38px;
+    float: left;
+    font-family: 'Pacifico', cursive;
+    margin-left:100px;
+    
+  }
+  .menu{
+    position: absolute;
+    right: 120px;
+  }
+  .menu a{
+  color: rgb(255, 254, 254);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 8px 20px;
+  border-radius: 15px;
+  margin-left: 20px;
+  transition:  0.5s ease-in-out;
+  text-transform: uppercase;
+}
+.menu a:hover{
+    background-color: rgba(59, 59, 59,0.5);
+    color: #06fdfd;
+  }
+  
+  .btn{
+    display: none;
+    position: absolute;
+    right: 20px;
+  }
+  .btn:hover > span{
+    background: #6ab04c;
+  }
+  .btn span{
+    display: block;
+    margin: 6px;
+    width: 40px;
+    height: 3px;
+    background: #333;
+  }
+ 
+  @media only screen and (max-width : 768px) {
+    .navbar{
+      overflow: visible;
+    }
+    .menu{
+      width: 100%;
+      right: 0;
+      top: 80px;
+      background: #363636;
+      overflow: hidden;
+      max-height: 0;
+    }
+    .brand{
+    margin-left:20px;
+
+    }
+    .menu a{
+      display: block;
+      text-align: center;
+      padding: 10px;
+      margin: 0;
+    }
+    .btn{
+      display: block;
+      cursor: pointer;
+    }
+    .show{
+      max-height: 500px;
+    }
+  }
+
+
+/* home section start */
+
+  #particles-js{
+      margin-top:80px ;
+    min-height: 100vh;
+    background: linear-gradient(45deg,black,rgb(4, 201, 250));
+  }
+  .home{
+      position: absolute;
+      top:40%;
+      width: 40%;
+      left: 15%;
+      /* background-color: red; */
+  }
+
+  .home h1{
+      font-size: 55px;
+      color:white;
+      margin: 0;
+      padding: 0;
+    }
+    .home #SFW{
+        color: rgb(248, 114, 4);
+      font-weight: 200;
+  }
+  .home p{
+      text-transform: uppercase;
+      font-size: 22px;
+      margin:0;
+      padding: 0;
+      background-color: #000;
+      padding: 10px;
+      color: white;
+      width: fit-content;
+  }
+
+  @media only screen and (max-width : 768px) {
+    
+    #particles-js{
+      min-height: 100vh;
+    }
+    .home{
+        position: absolute;
+        width: 60%;
+    }
+    .home h1{
+        font-size: 45px;
+       
+      }
+      .home p{
+          font-size: 18px;
+      }
+    }
+/* home section end */
+
+/* About section start */
+#about{
+    background-color:indigo;
+    height: 100vh;
+}
+
+
+
+/* About section end */
+
+
+
+
+
+
+
+
+
+
