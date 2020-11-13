@@ -160,7 +160,12 @@ body{
 
 /* About section end */
 
-
+/* Skills section start */
+#skills{
+    height: 100vh;
+    background-color: yellow;
+}
+/* Skills section end */
 
 
 
