@@ -221,7 +221,7 @@ body{
 .service-inner .service-info-heading{
   font-size: 30px;
   text-align: center;
-  margin: 30px;
+  margin: 50px;
   text-transform: uppercase;
 
 }
@@ -269,6 +269,13 @@ body{
   padding: 50px 20px;
   margin: auto;
 }
+#skills .skills-info-heading{
+  font-size: 30px;
+  text-align: center;
+  margin: 50px;
+  text-transform: uppercase;
+
+}
 .container{
   width: 80%;
   margin: auto;
@@ -301,7 +308,7 @@ body{
 }
 .box .pbar1 {
   width:0%;
-  height:8px;
+  height:10px;
   background:linear-gradient(to right,rgb(76,217,105),rgb(10,120,250),rgb(32,170,220),rgb(52,170,220),rgb(88,86,217),rgb(0,0,0));
   margin-top:10px;
   background-size:320px 5px;
@@ -310,7 +317,7 @@ body{
 }
 .box .pbar2 {
   width:0%;
-  height:8px;
+  height:10px;
   background:linear-gradient(to right,rgb(76,217,105),rgb(90,200,250),rgb(32,170,220),rgb(88,86,217),rgb(0,0,0));
   margin-top:10px;
   background-size:280px 5px;
@@ -319,7 +326,7 @@ body{
 }
 .box .pbar3 {
   width:0%;
-  height:8px;
+  height:10px;
   background:linear-gradient(to right,rgb(76,217,105),rgb(90,200,250),rgb(30,170,220),rgb(88,86,217),rgb(0,0,0));
   margin-top:10px;
   background-size:240px 5px;
@@ -328,7 +335,7 @@ body{
 }
 .box .pbar4 {
   width:0%;
-  height:8px;
+  height:10px;
   background:linear-gradient(to right,rgb(76,217,105),rgb(90,200,250),rgb(32,170,220),rgb(88,86,217),rgb(0,0,0));
   margin-top:10px;
   background-size:310px 5px;
