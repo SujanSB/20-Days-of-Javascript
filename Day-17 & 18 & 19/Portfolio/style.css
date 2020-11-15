@@ -6,7 +6,8 @@ body{
   }
   html{
     scroll-behavior: smooth;
-
+    margin: 0;
+    padding: 0;
   }
   .navbar{
     position: fixed;
@@ -329,7 +330,7 @@ body{
   height:15px;
   background:linear-gradient(to right,rgb(76,217,105),rgb(90,200,250),rgb(32,170,220),rgb(88,86,217),rgb(0,0,0));
   margin-top:10px;
-  background-size:320px 5px;
+  background-size:330px 5px;
   border-radius:10px;
   animation:loading 5s ease-in-out forwards;
 }
@@ -338,16 +339,16 @@ body{
   height:15px;
   background:linear-gradient(to right,rgb(76,217,105),rgb(90,200,250),rgb(32,170,220),rgb(88,86,217),rgb(0,0,0));
   margin-top:10px;
-  background-size:280px 5px;
+  background-size:310px 5px;
   border-radius:10px;
   animation:loading 5s ease-in-out forwards;
 }
 .box .pbar3 {
   width:0%;
   height:15px;
-  background:linear-gradient(to right,rgb(76,217,105),rgb(90,200,250),rgb(30,170,220),rgb(88,86,217),rgb(0,0,0));
+  background:linear-gradient(to right,rgb(76,217,105),rgb(90,200,250),rgb(30,170,220),rgb(88,86,217),rgb(241, 166, 2),rgb(0,0,0));
   margin-top:10px;
-  background-size:240px 5px;
+  background-size:300px 5px;
   border-radius:10px;
   animation:loading 5s ease-in-out forwards;
 }
@@ -356,7 +357,7 @@ body{
   height:15px;
   background:linear-gradient(to right,rgb(76,217,105),rgb(90,200,250),rgb(32,170,220),rgb(88,86,217),rgb(0,0,0));
   margin-top:10px;
-  background-size:310px 5px;
+  background-size:330px 5px;
   border-radius:10px;
   animation:loading 5s ease-in-out forwards;
 }
@@ -474,6 +475,14 @@ form{
   margin-left:30px;
    display: inline-block;
 }
+#btnid{
+  outline: none;
+  border: none;
+  background-color: black;
+  padding:5px 12px;
+  color:white;
+  
+}
 li{
    list-style: none;
    margin: 15px;
@@ -498,7 +507,7 @@ textarea{
 .contact-inner .arko{
    width: 40%;
    margin: auto;
-   border-left: 2px solid indigo;
+   border-left: 5px solid indigo;
    
 }
 .arkovitra{
@@ -519,4 +528,68 @@ textarea{
   /* padding:0px !important; */
 }
 /* contact from end */
+
+/* footer section here */
+
+.footer{
+width: 100%;
+background-color: black;
+height: 25%;
+margin:0;
+padding: 10px 0px 20px 0px;
+color:white;
+align-items: center;
+justify-content: center;
+}
+.footer .footer-info-heading{
+  font-size: 20px;margin-bottom: 40px;
+}
+.footer .footer-inner{
+  margin: 20px 600px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer .footer-inner .social-icon{
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  /* width: 50%; */
+
+}
+.social-icon a{
+  font-size: 25px;
+  text-decoration: none;
+  color:white;
+  padding:5px 10px ;
+  border-radius: 50%;
+
+
+}
+/* .social-icon >div{
+  height: 50px;
+  width: 50px;
+} */
+.icon .facebook{
+  background-color: rgb(4, 101, 245);
+}
+.icon .instagram{
+  background: linear-gradient(45deg, rgb(253, 84, 6),blue,yellow);
+}
+.icon .git{
+  background-color: white;
+  color:black
+}
+.icon .youtube{
+  background-color: rgb(248, 0, 0);
+}
+.icon .linkedin{
+  background-color: rgb(3, 130, 248);
+}
+
+.footer-inner p{
+  font-size: 20px;
+  font-weight: 500;
+}
 
