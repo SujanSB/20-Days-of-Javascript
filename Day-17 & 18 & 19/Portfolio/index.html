@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />  </head>
   <body>
@@ -53,7 +54,7 @@
     <p class="about-info-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi suscipit quidem ullam voluptates repellendus explicabo placeat, expedita ratione saepe eaque dolorum sed deleniti, odit numquam, nostrum tempore quos corrupti rem.</p>
     <a href="#" type="button" >Download Resume</a>
   </div>
-  <div class="vado">
+  <div class="vado" data-aos="zoom-in" delay: 5>
     <img src="image/w2.jpeg" alt="image not found" id="photo">
     <div class="bichma">
         <button id="aghillo"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
@@ -70,12 +71,12 @@
   <div class="service-inner">
   <h1 class="service-info-heading">What do i offer ?</h1>
     <div class="row">
-      <div class="first part">
+      <div class="first part" data-aos="zoom-out-right">
         <i class="fa fa-cogs" aria-hidden="true"></i>
         <h3>Front End Design</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ipsum?</p>
       </div>
-      <div class="second part">
+      <div class="second part" data-aos="zoom-out-up">
         <i class="fa fa-database" aria-hidden="true"></i>
         <i class="fa fa-facebook" aria-hidden="true"></i>
 
@@ -83,7 +84,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ipsum?</p>
 
       </div>
-      <div class="third part">
+      <div class="third part" data-aos="zoom-out-left">
         <i class="fa fa-cube" aria-hidden="true"></i>        
         <h3>Mobile App</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ipsum?</p>
@@ -133,12 +134,14 @@
         <div id="works">
           <h2 class="works-heading">Some Selected Works </h2>
           <div class="column">
-              <div class="workone">
+              <div class="workone" data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
                   <div class="oneside">
                       <div class="oneside-center">
-                          <h3>Front end for Abc company</h3>
+                          <h3>Front end for Invocea company</h3>
                           <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual .</p>
-                          <button><a href="#">View Project</a></button>
+                          <button><a href="https://github.com/InvalidSB/CWD">View Project</a></button>
                         </div>
                   </div>
                   <div class="anotherside">
@@ -148,10 +151,12 @@
                   </div>
 
               </div>
-               <div class="worktwo">
+               <div class="worktwo" data-aos="flip-left"
+               data-aos-easing="ease-out-cubic"
+               data-aos-duration="2000">
                   <div class="oneside">
                       <div class="oneside-center">
-                          <h3>Full stack for Xyz pvt.ltd</h3>
+                          <h3>Ecommorce site for RamShopstore</h3>
                           <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual .</p>
                           <button><a href="#">View Project</a></button>
 
@@ -166,12 +171,14 @@
                   </div>
 
               </div>
-               <div class="workthree">
+               <div class="workthree" data-aos="flip-left"
+               data-aos-easing="ease-out-cubic"
+               data-aos-duration="2000">
                   <div class="oneside">
                       <div class="oneside-center">
                           <h3>Mobile app for Elementrix</h3>
                           <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual .</p>
-                          <button><a href="#">View Project</a></button>
+                          <button><a href="https://github.com/InvalidSB/React-native-Node">View Project</a></button>
 
                       </div>
                       
@@ -191,12 +198,12 @@
 <div class="contact" id="contact">
   <h1 class="thulotauko">Lets Get Connected</h1>
   <div class="contact-inner">
-      <div class="yeuta">
+      <div class="yeuta" data-aos="zoom-out">
           <form action="">
-          <li><input type="text" name="" placeholder="Enter your Fullname"></li>
-          <li><input type="email" name="" id="" placeholder="Enter your email"></li>
+          <li><input class='name' type="text" name="" placeholder="Enter your Fullname"></li>
+          <li><input class ="email" type="email" name="" id="" placeholder="Enter your email"></li>
           <div class="msg">Message</div>
-          <li><textarea name="" id="" cols="20" rows="5" placeholder="Drop a message here"></textarea></li>
+          <li><textarea  class="msgbox" name="" id="" cols="20" rows="5" placeholder="Drop a message here"></textarea></li>
           <button id="btnid">Submit</button>
         </form>
       </div>
@@ -257,6 +264,12 @@
 <script type="text/javascript" src="app.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="main.js" ></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 180,
+  });
+</script>
 <script type="text/javascript">
 
 $(".btn").on("click",function(){

@@ -483,6 +483,14 @@ body{
    background-color: #0000;
    margin: auto;
 }
+.yeuta span{
+  background-color: red;
+  padding:5px 25px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+}
 form{
    align-items: center;
   padding: 20px;

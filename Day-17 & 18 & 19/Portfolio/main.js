@@ -25,4 +25,22 @@ let aghillo = document.getElementById('aghillo')
 
     // contact section fill garera submit garepaxi
 
+    let yeuta = document.querySelector('.yeuta')
+    let name = document.querySelector('.name')
+    let  email= document.querySelector('.email')
+    let msgbox = document.querySelector('.msgbox')
+    
+    let btnid = document.getElementById('btnid')
+    
+    btnid.addEventListener('click',(e)=>{
+        let ko = document.querySelector('.name').value
+        e.preventDefault();
+        if(name.value == '' || email.value =="" || msgbox ==""){
+            alert('Criteria not fullfilled')
+        }else{
+            let newComp = document.createElement('p')
+            newComp.innerHTML=`<h1>Form Submitted Successfully,<br/> <span>${ko}</span></h1>`
+            yeuta.innerHTML= newComp.innerHTML
+        }
+    })
     
