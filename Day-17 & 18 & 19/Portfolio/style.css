@@ -21,7 +21,7 @@ body{
     z-index: 100;
   }
   .brand{
-    color: rgb(248, 114, 4);
+    color: rgb(57, 243, 11);
     font-size: 35px;
     font-weight: bold;
     background-size: contain;
@@ -109,7 +109,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     /* background-image:url('https://i.pinimg.com/564x/8f/b3/e3/8fb3e3fb87f85793607b5426ede68cc9.jpg'); */
-    background: linear-gradient(45deg,rgb(255, 0, 0),indigo);
+    background: linear-gradient(65deg,green,black);
   }
   .home{
       position: absolute;
@@ -127,7 +127,7 @@ body{
       padding: 0;
     }
     .home #SFW{
-        color: rgb(248, 114, 4);
+        color: rgb(240, 236, 10);
       font-weight: 200;
   }
   .home p{
@@ -204,7 +204,7 @@ body{
   color:indigo;
   background-color: white;
 }
-.about .about-img {
+.about .vado {
 	display: block;
   width: 50%;
   margin-left: 100px;
@@ -214,7 +214,18 @@ body{
   width: 100%;
   margin: auto;
 }
+.vado .bichma{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.vado .bichma button{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 30px;
+}
 /* About section end */
 
 /* Service section start */
@@ -246,6 +257,10 @@ body{
   align-items: center;
   text-align: center;
   padding:50px
+}
+.service-inner .part:hover{
+ background-color: black;
+ color: white !important;
 }
 .service-inner .part h3{
     font-size: 22px;
